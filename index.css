@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    /* background-color: rgb(92, 92, 211); */
+    background:rgb(65, 64, 64)
+
+}
+.logo{
+    color: white;
+    span{
+        color: red;
+    }
+}
+
+.navv{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 50px;
+  
+}
+
+
+ nav a{
+    text-decoration: none;
+    color:white;
+    gap: 20px;
+    padding-left: 20px;
+ 
+}
+nav a:hover{
+    color: white;
+}
+
+.hero{
+   background: linear-gradient(to bottom,black,rgb(211, 211, 194));
+   height: 70vh;
+   display: flex;
+
+   padding-top: 80px;
+   h2{
+    padding-left: 80px;
+    padding-top: 10px;
+    font-size: 50px;
+    color: wheat;
+   }
+   h2:hover{
+    color: white;
+   }
+   p{
+    padding-left: 80px;
+    font-size: 15px;
+   }
+ 
+   .proimg{
+    width: 200px;
+   
+    border: 3px solid rgb(2, 30, 2);
+    border-radius: 20px;
+    margin-left: 180px;
+    margin-top: 40px;
+    
+   }
+   span{
+    /* color: rgb(112, 220, 213); */
+    color: white;
+   }
+  
+ 
+
+}
+
+.button{
+    margin-left: 80px;
+   
+   
+}
+
+button{
+    padding: 20px;
+    border: none;
+    background-color: cadetblue;
+    border-radius: 9px;
+  
+  
+   
+    
+    
+}
+button:hover{
+    background-color:cornflowerblue;
+    
+}
+.gg{
+    background: linear-gradient(to left,brown,rgb(57, 55, 55));
+}
+
+#about{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 180px;
+    height: 100vh;
+    background-color: gray;
+    h2{
+        padding-left: 80px;
+    }
+   
+   
+
+}
+
+
+ img{
+    width: 250px;
+    object-fit: cover;
+  border-radius: 20px;
+}
+
+
+.ab{
+    
+    padding-left: 50px;
+    padding-top: 30px;
+    h3{
+        color: rgb(118, 65, 56);
+    }
+    ul{
+        padding-left: 20px;
+    }
+}
+
+#Education{
+    height: 60vh;
+    padding-top: 50px;
+      h2{
+          text-align: center;
+    }
+   
+}
+.card{
+    height: 200px;
+    background-color: aquamarine;
+}
+.edu-container{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 10px;
+
+}
+.education-card{
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    border-left: 5px solid rgb(118, 65, 56);
+    box-shadow:  0 5px 15px gray;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+#skill{
+    height: 70vh;
+    padding-top: 80px;
+    background-color: rgb(136, 119, 75);
+    h2{
+        text-align: center;
+        padding-top: 70px;
+    }
+}
+
+.skill-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.skill-card{
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 12px;
+    border-top-left-radius: 5px;
+    margin-left: 60px;
+    margin-right: 60px;
+    box-shadow: 0 5px 15px black;
+
+    
+}
+
+.skill-items{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+  
+}
+
+.skill-items p{
+    margin: 0;
+    padding: 12px 20px;
+    background: rgb(215, 98, 55);
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.skill-items p:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+.footer{
+    background-color:rgb(117, 109, 109);
+    height: 30vh;
+}
+
+.footer-container{
+    display: flex;
+    justify-content:space-between;
+    padding-right: 380px;
+    gap: 25px;
+    padding-left: 60px;
+    padding-top: 50px;
+
+    a{
+        text-decoration: none;
+        color: rgb(47, 46, 46);
+        
+    }
+    ul{
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+    
+}
+.copy{
+    padding-top: 0px;
+    background-color: beige;
+    text-align: center;
+    padding-bottom: 20px;
+    
+   
+}
+
+@media screen {
+    
+}
+
+
+
+
+
+
+
+
+
