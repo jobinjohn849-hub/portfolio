@@ -2,9 +2,14 @@
     margin: 0;
     padding: 0;
 }
+
+
 header{
+      position: sticky;
+    top: 0;
+    z-index: 1000;
     /* background-color: rgb(92, 92, 211); */
-    background:rgb(65, 64, 64)
+    background:rgb(65, 64, 64) ;
 
 }
 .logo{
@@ -32,11 +37,11 @@ header{
  
 }
 nav a:hover{
-    color: white;
+    color: blanchedalmond;
 }
 
 .hero{
-   background: linear-gradient(to bottom,black,rgb(211, 211, 194));
+   background: rgb(65, 64, 64) ;
    height: 70vh;
    display: flex;
 
@@ -53,10 +58,12 @@ nav a:hover{
    p{
     padding-left: 80px;
     font-size: 15px;
+    color: wheat;
    }
  
    .proimg{
-    width: 200px;
+    width: 300px;
+    height: 300px;
    
     border: 3px solid rgb(2, 30, 2);
     border-radius: 20px;
@@ -80,11 +87,15 @@ nav a:hover{
 }
 
 button{
-    padding: 20px;
+    
+   padding: 20px;
     border: none;
     background-color: cadetblue;
     border-radius: 9px;
-  
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
   
    
     
@@ -94,16 +105,14 @@ button:hover{
     background-color:cornflowerblue;
     
 }
-.gg{
-    background: linear-gradient(to left,brown,rgb(57, 55, 55));
-}
+
 
 #about{
     display: flex;
     padding-top: 30px;
     padding-left: 180px;
-    height: 100vh;
-    background-color: gray;
+    height: 60vh;
+    background-color: wheat;
     h2{
         padding-left: 80px;
     }
@@ -131,10 +140,13 @@ button:hover{
         padding-left: 20px;
     }
 }
-
+.hob{
+    padding-left: 90px;
+}
 #Education{
-    height: 60vh;
+    height: 50vh;
     padding-top: 50px;
+    background-color: wheat;
       h2{
           text-align: center;
     }
@@ -151,7 +163,7 @@ gap: 10px;
 
 }
 .education-card{
-    background-color: white;
+    background-color: wheat;
     padding: 25px;
     border-radius: 12px;
     border-left: 5px solid rgb(118, 65, 56);
@@ -162,12 +174,12 @@ gap: 10px;
 }
 
 #skill{
-    height: 70vh;
+    height: 50vh;
     padding-top: 80px;
-    background-color: rgb(136, 119, 75);
+    background-color: rgb(65, 64, 64);
     h2{
         text-align: center;
-        padding-top: 70px;
+        padding-top: 20px;
     }
 }
 
@@ -213,18 +225,17 @@ gap: 10px;
     transform: scale(1.05);
 }
 
-.footer{
+/* .footer{
     background-color:rgb(117, 109, 109);
     height: 30vh;
-}
+} */
 
 .footer-container{
-    display: flex;
-    justify-content:space-between;
+    
     padding-right: 380px;
     gap: 25px;
-    padding-left: 60px;
-    padding-top: 50px;
+    padding-left: 620px;
+    padding-top: 60px;
 
     a{
         text-decoration: none;
@@ -237,18 +248,108 @@ gap: 10px;
     }
     
 }
-.copy{
-    padding-top: 0px;
-    background-color: beige;
-    text-align: center;
-    padding-bottom: 20px;
+.footer{
     
-   
+     background:rgb(65, 64, 64) ;
+    height: 20vh;
+    text-align: center;
+    display: flex;
+    color: #f4f6f8;
+   }
+
+   .fa-brands {
+    font-size: 26px;
+    color: #edeef0;
+    
+   }
+   .fa-brands:hover {
+    
+   }
+   #contact {
+    min-height: 100vh;
+    padding: 80px 10%;
+    background:rgb(65, 64, 64) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-@media screen {
-    
+.Contact {
+    width: 100%;
+    max-width: 650px;
+    padding: 40px;
+    background:wheat ;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(62, 39, 35, 0.25);
 }
+
+.Contact h2 {
+    text-align: center;
+    color: #3E2723;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.Contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Contact input,
+.Contact textarea {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 2px solid #C19A6B;
+    border-radius: 8px;
+    background: #FFF8E7;
+    color: #3E2723;
+    font-size: 16px;
+    outline: none;
+}
+
+.Contact input::placeholder,
+.Contact textarea::placeholder {
+    color: #8D6E63;
+}
+
+.Contact input:focus,
+.Contact textarea:focus {
+    border-color: #8D6E63;
+}
+
+.Contact textarea {
+    height: 150px;
+    resize: none;
+}
+
+.Contact .submit {
+    width: 150px;
+    padding: 14px;
+    margin: 10px auto 0;
+    border: none;
+    border-radius: 25px;
+    background: #3E2723;
+    color: #F5DEB3;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Contact .submit:hover {
+    background: #8D6E63;
+    color: white;
+    transform: translateY(-2px);
+}
+
+
+   
+
+   
+
+
 
 
 
